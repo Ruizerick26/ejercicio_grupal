@@ -1,4 +1,4 @@
-public class docentes {
+public class docentes extends docentes1 {
     public double calificar;
     public double rechazar;
     public double aprovar;
