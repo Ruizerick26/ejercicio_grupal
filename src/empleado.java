@@ -1,34 +1,66 @@
 public class empleado {
-    String nombre;
-    String apellido;
-    String cedula;
-    String cargo;
-    float sueldo;
+    String nombreEmpleado;
+    String apellidoEmpleado;
+    String cedulaEmpleado;
+    String cargoEmpleado;
+    float sueldoEmpleado;
+    String codigoEmpleado;
 
-    public empleado(String nombre, String apellido, String cedula, String cargo, float sueldo) {
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.cedula = cedula;
-        this.cargo = cargo;
-        this.sueldo = sueldo;}
+    public empleado(String nombreEmpleado, String apellidoEmpleado, String cedulaEmpleado, String cargoEmpleado, float sueldoEmpleado, String codigoEmpleado) {
+        this.nombreEmpleado = nombreEmpleado;
+        this.apellidoEmpleado = apellidoEmpleado;
+        this.cedulaEmpleado = cedulaEmpleado;
+        this.cargoEmpleado = cargoEmpleado;
+        this.sueldoEmpleado = sueldoEmpleado;
+        this.codigoEmpleado = codigoEmpleado;
+    }
 
-    public String getNombre() {return nombre;}
+    public String getNombreEmpleado() {
+        return nombreEmpleado;
+    }
 
-    public void setNombre(String nombre) {this.nombre = nombre;}
+    public void setNombreEmpleado(String nombreEmpleado) {
+        this.nombreEmpleado = nombreEmpleado;
+    }
 
-    public String getApellido() {return apellido;}
+    public String getApellidoEmpleado() {
+        return apellidoEmpleado;
+    }
 
-    public void setApellido(String apellido) {this.apellido = apellido;}
+    public void setApellidoEmpleado(String apellidoEmpleado) {
+        this.apellidoEmpleado = apellidoEmpleado;
+    }
 
-    public String getCedula() {return cedula;}
+    public String getCedulaEmpleado() {
+        return cedulaEmpleado;
+    }
 
-    public void setCedula(String cedula) {this.cedula = cedula;}
+    public void setCedulaEmpleado(String cedulaEmpleado) {
+        this.cedulaEmpleado = cedulaEmpleado;
+    }
 
-    public String getCargo() {return cargo;}
+    public String getCargoEmpleado() {
+        return cargoEmpleado;
+    }
 
-    public void setCargo(String cargo) {this.cargo = cargo;}
+    public void setCargoEmpleado(String cargoEmpleado) {
+        this.cargoEmpleado = cargoEmpleado;
+    }
 
-    public float getSueldo() {return sueldo;}
+    public float getSueldoEmpleado() {
+        return sueldoEmpleado;
+    }
 
-    public void setSueldo(float sueldo) {this.sueldo = sueldo;}
+    public void setSueldoEmpleado(float sueldoEmpleado) {
+        this.sueldoEmpleado = sueldoEmpleado;
+    }
+
+    public String getCodigoEmpleado() {
+        return codigoEmpleado;
+    }
+
+    public void setCodigoEmpleado(String codigoEmpleado) {
+        this.codigoEmpleado = codigoEmpleado;
+    }
 }
+
