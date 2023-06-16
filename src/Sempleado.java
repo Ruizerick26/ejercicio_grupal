@@ -6,22 +6,23 @@ public class Sempleado extends empleado {
     private int s_edad;
 
     //Constructor
+
     public Sempleado(String nombre_Empleado,
                      String apellido_Empleado,
                      String cedula_Empleado,
                      String cargo_Empleado,
                      float sueldo_Empleado,
-
                      String codigo_Empleado,
-                     String nombre,
-                     String apellido, int edad)
-    {
-        super(nombre_Empleado, apellido_Empleado, cedula_Empleado, cargo_Empleado, sueldo_Empleado, codigo_Empleado);
-        this.s_nombre = nombre;
-        this.s_apellido = apellido;
-        this.s_edad = edad;
-    }
 
+                     String s_nombre,
+                     String s_apellido,
+                     int s_edad) {
+        super(nombre_Empleado, apellido_Empleado, cedula_Empleado, cargo_Empleado, sueldo_Empleado, codigo_Empleado);
+        this.s_nombre = s_nombre;
+        this.s_apellido = s_apellido;
+        this.s_edad = s_edad;
+    }
+    
     //Setters y Getters
 
     public String getS_nombre() {
