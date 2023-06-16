@@ -6,7 +6,6 @@ public class Sempleado extends empleado {
     private int s_edad;
 
     //Constructor
-
     public Sempleado(String nombre_Empleado,
                      String apellido_Empleado,
                      String cedula_Empleado,
@@ -21,5 +20,31 @@ public class Sempleado extends empleado {
         this.s_nombre = nombre;
         this.s_apellido = apellido;
         this.s_edad = edad;
+    }
+
+    //Setters y Getters
+
+    public String getS_nombre() {
+        return s_nombre;
+    }
+
+    public void setS_nombre(String s_nombre) {
+        this.s_nombre = s_nombre;
+    }
+
+    public String getS_apellido() {
+        return s_apellido;
+    }
+
+    public void setS_apellido(String s_apellido) {
+        this.s_apellido = s_apellido;
+    }
+
+    public int getS_edad() {
+        return s_edad;
+    }
+
+    public void setS_edad(int s_edad) {
+        this.s_edad = s_edad;
     }
 }
