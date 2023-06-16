@@ -1,48 +1,66 @@
-//Clase padre empleado
 public class empleado {
+    String nombre_Empleado;
+    String apellido_Empleado;
+    String cedula_Empleado;
+    String cargo_Empleado;
+    float sueldo_Empleado;
+    String codigo_Empleado;
 
-    /**************************************************************************************************************/
-    //Atributos
-    private String nombre;
-    private String apellido;
-    private String cedula;
-    private String cargo;
-    private float sueldo;
+    public empleado(String nombre_Empleado, String apellido_Empleado, String cedula_Empleado, String cargo_Empleado, float sueldo_Empleado, String codigo_Empleado) {
+        this.nombre_Empleado = nombre_Empleado;
+        this.apellido_Empleado = apellido_Empleado;
+        this.cedula_Empleado = cedula_Empleado;
+        this.cargo_Empleado = cargo_Empleado;
+        this.sueldo_Empleado = sueldo_Empleado;
+        this.codigo_Empleado = codigo_Empleado;
+    }
 
-    /**************************************************************************************************************/
-    //Constructor
-    public empleado(String nombre, String apellido, String cedula, String cargo, float sueldo) {
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.cedula = cedula;
-        this.cargo = cargo;
-        this.sueldo = sueldo;}
+    public String getNombre_Empleado() {
+        return nombre_Empleado;
+    }
 
-    /**************************************************************************************************************/
-    //Getters and Setters de los parametros que aplicaria un empleado
+    public void setNombre_Empleado(String nombre_Empleado) {
+        this.nombre_Empleado = nombre_Empleado;
+    }
 
-    //Setters y Getters Nombre
-    public String getNombre() {return nombre;}
+    public String getApellido_Empleado() {
+        return apellido_Empleado;
+    }
 
-    public void setNombre(String nombre) {this.nombre = nombre;}
+    public void setApellido_Empleado(String apellido_Empleado) {
+        this.apellido_Empleado = apellido_Empleado;
+    }
 
-    //Setters y Getters Apellido
-    public String getApellido() {return apellido;}
+    public String getCedula_Empleado() {
+        return cedula_Empleado;
+    }
 
-    public void setApellido(String apellido) {this.apellido = apellido;}
+    public void setCedula_Empleado(String cedula_Empleado) {
+        this.cedula_Empleado = cedula_Empleado;
+    }
 
-    //Setters y Getters Cedula
-    public String getCedula() {return cedula;}
+    public String getCargo_Empleado() {
+        return cargo_Empleado;
+    }
 
-    public void setCedula(String cedula) {this.cedula = cedula;}
+    public void setCargo_Empleado(String cargo_Empleado) {
+        this.cargo_Empleado = cargo_Empleado;
+    }
 
-    //Setters y Getters Cargo
-    public String getCargo() {return cargo;}
+    public float getSueldo_Empleado() {
+        return sueldo_Empleado;
+    }
 
-    public void setCargo(String cargo) {this.cargo = cargo;}
+    public void setSueldo_Empleado(float sueldo_Empleado) {
+        this.sueldo_Empleado = sueldo_Empleado;
+    }
 
-    //Setters y Getters Sueldo
-    public float getSueldo() {return sueldo;}
+    public String getCodigo_Empleado() {
+        return codigo_Empleado;
+    }
 
-    public void setSueldo(float sueldo) {this.sueldo = sueldo;}
+    public void setCodigo_Empleado(String codigo_Empleado) {
+        this.codigo_Empleado = codigo_Empleado;
+    }
 }
+
