@@ -5,7 +5,9 @@ public class docentes extends empleado{
     public double aprovar;
     public double deberes;
 
-
+    public docentes(){
+        super();
+    }
     //Getters and Setters de los parametros que aplicaria un docentes hacia los estudiantes
     public double getCalificar() {
         return calificar;

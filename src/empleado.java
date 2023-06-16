@@ -6,6 +6,7 @@ public class empleado {
     float sueldo_Empleado;
     String codigo_Empleado;
 
+    public empleado(){}
     public empleado(String nombre_Empleado, String apellido_Empleado, String cedula_Empleado, String cargo_Empleado, float sueldo_Empleado, String codigo_Empleado) {
         this.nombre_Empleado = nombre_Empleado;
         this.apellido_Empleado = apellido_Empleado;

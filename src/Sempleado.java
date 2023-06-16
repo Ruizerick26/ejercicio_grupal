@@ -6,7 +6,9 @@ public class Sempleado extends empleado {
 
     //Constructor
 
-
+    public Sempleado(){
+        super();
+    }
     public Sempleado(String nombre_Empleado, String apellido_Empleado, String cedula_Empleado, String cargo_Empleado, float sueldo_Empleado, String codigo_Empleado, String departamento, String Equipo_C) {
         super(nombre_Empleado, apellido_Empleado, cedula_Empleado, cargo_Empleado, sueldo_Empleado, codigo_Empleado);
         this.departamento = departamento;

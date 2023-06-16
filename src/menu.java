@@ -6,9 +6,9 @@ public class menu {
         //Arrays de docentes y entidades
         Scanner sc = new Scanner(System.in);
         ArrayList <docentes> profes = new ArrayList<docentes>();
-        docentes empleado1 = new docentes("", "", "", "", 0, "", 0, 0, 0, 0);
-        docentes empleado2 = new docentes("", "", "", "", 0, "", 0, 0, 0, 0);
-        docentes empleado3 = new docentes("", "", "", "", 0, "", 0, 0, 0, 0);
+        docentes empleado1 = new docentes();
+        docentes empleado2 = new docentes();
+        docentes empleado3 = new docentes();
 
         profes.add(empleado1);
         profes.add(empleado2);
@@ -16,8 +16,8 @@ public class menu {
 
         //Array administrativo y sus entidades
         ArrayList <Sempleado> admin = new ArrayList<>();
-        Sempleado empleado4 = new Sempleado("", "", "", "", 0, "", "", "");
-        Sempleado empleado5 = new Sempleado("", "", "", "", 0, "", "", "");
+        Sempleado empleado4 = new Sempleado();
+        Sempleado empleado5 = new Sempleado();
         admin.add(empleado4);
         admin.add(empleado5);
 
@@ -43,7 +43,7 @@ public class menu {
             System.out.print("Ingrese el codigo: ");
             String aux3 = sc.next();
             profe.setCodigo_Empleado(aux3);
-            System.out.print("Ingrese cuantos estudiantes aprobaron");
+            System.out.print("Ingrese cuantos estudiantes aprobaron: ");
             aux2 = sc.nextFloat();
             profe.setAprovar(aux2);
             System.out.println("Siguiente:----------------------");
