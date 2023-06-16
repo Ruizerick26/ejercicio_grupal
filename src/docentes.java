@@ -5,9 +5,6 @@ public class docentes extends empleado{
     public double aprovar;
     public double deberes;
 
-    public docentes(String nombre_Empleado, String apellido_Empleado, String cedula_Empleado, String cargo_Empleado, float sueldo_Empleado, String codigo_Empleado, double calificar) {
-        super();
-    }
 
     //Getters and Setters de los parametros que aplicaria un docentes hacia los estudiantes
     public double getCalificar() {
