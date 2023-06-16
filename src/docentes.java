@@ -6,7 +6,7 @@ public class docentes extends empleado{
     public double deberes;
 
     public docentes (){
-        super("","","","",0);
+        super();
     }
 //Getters and Setters de los parametros que aplicaria un docentes hacia los estudiantes
     public double getCalificar() {
@@ -44,8 +44,8 @@ public class docentes extends empleado{
 //Constructores de los parametros docentes
 
 
-    public docentes(String nombre, String apellido, String cedula, String cargo, float sueldo, double calificar, double rechazar, double aprovar, double deberes) {
-        super(nombre, apellido, cedula, cargo, sueldo);
+    public docentes(String nombreEmpleado, String apellidoEmpleado, String cedulaEmpleado, String cargoEmpleado, float sueldoEmpleado, String codigoEmpleado, double calificar, double rechazar, double aprovar, double deberes) {
+        super(nombreEmpleado, apellidoEmpleado, cedulaEmpleado, cargoEmpleado, sueldoEmpleado, codigoEmpleado);
         this.calificar = calificar;
         this.rechazar = rechazar;
         this.aprovar = aprovar;
