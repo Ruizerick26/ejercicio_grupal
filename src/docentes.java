@@ -1,9 +1,17 @@
+//Clase padre Docentes
 public class docentes {
-    public double calificar;
-    public double rechazar;
-    public double aprovar;
-    public double deberes;
-//Getters and Setters de los parametros que aplicaria un docentes hacia los estudiantes
+
+    /**************************************************************************************************************/
+    //Atributos
+    private double calificar;
+    private double rechazar;
+    private double aprovar;
+    private double deberes;
+
+    /**************************************************************************************************************/
+    //Getters and Setters de los parametros que aplicaria un docentes hacia los estudiantes
+
+    //Getters y Setters Calificar
     public double getCalificar() {
         return calificar;
     }
@@ -12,6 +20,7 @@ public class docentes {
         this.calificar = calificar;
     }
 
+    //Getters y Setters Rechazar
     public double getRechazar() {
         return rechazar;
     }
@@ -20,6 +29,7 @@ public class docentes {
         this.rechazar = rechazar;
     }
 
+    //Getters y Setters Aprovar
     public double getAprovar() {
         return aprovar;
     }
@@ -27,6 +37,7 @@ public class docentes {
     public void setAprovar(double aprovar) {
         this.aprovar = aprovar;
     }
+
 
     public double getDeberes() {
         return deberes;
@@ -36,12 +47,13 @@ public class docentes {
         this.deberes = deberes;
     }
 
-//Constructores de los parametros docentes
-
+    /**************************************************************************************************************/
+    //Constructores de los parametros docentes
     public docentes(double calificar, double rechazar, double aprovar, double deberes) {
         this.calificar = calificar;
         this.rechazar = rechazar;
         this.aprovar = aprovar;
         this.deberes = deberes;
     }
+    /**************************************************************************************************************/
 }
