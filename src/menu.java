@@ -43,6 +43,9 @@ public class menu {
             System.out.print("Ingrese el codigo: ");
             String aux3 = sc.next();
             profe.setCodigo_Empleado(aux3);
+            System.out.print("Ingrese cuantos estudiantes aprobaron");
+            aux2 = sc.nextFloat();
+            profe.setAprovar(aux2);
             System.out.println("Siguiente:----------------------");
         }
 
