@@ -23,8 +23,7 @@ public class Sempleado extends empleado {
         this.s_edad = s_edad;
     }
 
-    //Setters y Getters
-
+    //setter y getters
     public String getS_nombre() {
         return s_nombre;
     }
