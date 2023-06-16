@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b2a2f6e-7d0e-435d-a772-9a787bade809" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/docentes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/docentes.java" afterDir="false" />
+    <list default="true" id="5b2a2f6e-7d0e-435d-a772-9a787bade809" name="Changes" comment="Menu">
+      <change beforePath="$PROJECT_DIR$/src/menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,18 @@
       <option name="presentableId" value="Default" />
       <updated>1686932558633</updated>
     </task>
+    <task id="LOCAL-00001" summary="Menu">
+      <created>1686936636702</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686936636702</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Menu" />
   </component>
 </project>
