@@ -15,9 +15,9 @@ public class menu {
         profes.add(empleado3);
 
         //Array administrativo y sus entidades
-        ArrayList <Sempleado> admin = new ArrayList<>();
-        Sempleado empleado4 = new Sempleado();
-        Sempleado empleado5 = new Sempleado();
+        ArrayList <Adminitrativos> admin = new ArrayList<>();
+        Adminitrativos empleado4 = new Adminitrativos();
+        Adminitrativos empleado5 = new Adminitrativos();
         admin.add(empleado4);
         admin.add(empleado5);
 
@@ -46,6 +46,15 @@ public class menu {
             System.out.print("Ingrese cuantos estudiantes aprobaron: ");
             aux2 = sc.nextFloat();
             profe.setAprovar(aux2);
+            System.out.println("Ingrese el numero de rechazos");
+            aux2 = sc.nextFloat();
+            profe.setRechazar(aux2);
+            System.out.println("Ingrese la cantidad de calificados:");
+            aux2 = sc.nextFloat();
+            profe.setCalificar(aux2);
+            System.out.println("Ingrese los deberes recibidos:");
+            aux2 = sc.nextFloat();
+            profe.setDeberes(aux2);
             System.out.println("Siguiente:----------------------");
         }
 
@@ -54,7 +63,7 @@ public class menu {
         System.out.println("------------------------------------------------");
         System.out.println("Vamos a llenar los datos de los Administrativos");
         System.out.println("------------------------------------------------");
-        for (Sempleado admini : admin){
+        for (Adminitrativos admini : admin){
             System.out.print("Ingrese el nombre: ");
             String aux = sc.next();
             admini.setNombre_Empleado(aux);
@@ -76,7 +85,16 @@ public class menu {
             System.out.print("Ingrese el departamento:");
             aux = sc.next();
             admini.setDepartamento(aux);
+            System.out.println("Ingrese el equipo con el que trabaja:");
+            aux = sc.next();
+            admini.setEquipo_C(aux);
             System.out.println("Siguiente:----------------------");
         }
+
+        empleado1.Imprimir_docente();
+        empleado2.Imprimir_docente();
+        empleado3.Imprimir_docente();
+        empleado4.Imprimir_administrativo();
+        empleado5.Imprimir_administrativo();
     }
 }

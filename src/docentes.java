@@ -1,9 +1,9 @@
 public class docentes extends empleado{
     //parametros
-    public double calificar;
-    public double rechazar;
-    public double aprovar;
-    public double deberes;
+    private double calificar;
+    private double rechazar;
+    private double aprovar;
+    private double deberes;
 
     public docentes(){
         super();
@@ -50,5 +50,18 @@ public class docentes extends empleado{
         this.rechazar = rechazar;
         this.aprovar = aprovar;
         this.deberes = deberes;
+    }
+
+    public void Imprimir_docente(){
+        System.out.println("Datos del empleado: ");
+        System.out.println(getNombre_Empleado());
+        System.out.println(getApellido_Empleado());
+        System.out.println(getCargo_Empleado());
+        System.out.println(getCedula_Empleado());
+        System.out.println(getSueldo_Empleado());
+        System.out.println(getCalificar());
+        System.out.println(getDeberes());
+        System.out.println(getAprovar());
+        System.out.println(getRechazar());
     }
 }
